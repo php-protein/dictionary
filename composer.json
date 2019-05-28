@@ -1,0 +1,20 @@
+{
+    "name": "protein/map",
+    "description": "Handle a repository of key-values data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefano Azzolini",
+            "email": "lastguest@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "PSR-4": {
+            "Protein\\": "src/"
+        }
+    }
+}
