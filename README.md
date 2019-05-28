@@ -7,13 +7,13 @@
 ---
 
 ```
-composer require protein/map
+composer require proteins/map
 ```
 
 Require the class via :
 
 ```php
-use Protein\Map;
+use Proteins\Map;
 ```
 
 

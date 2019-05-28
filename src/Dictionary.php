@@ -10,15 +10,15 @@
  * <code>
  *  class State extends Dictionary {}
  *  State::set('user',[ 'name' => 'Frank', 'surname' => 'Castle' ]);
- *  echo "Hello, my name is ",State::get('user.name'),' ',State::get('user.surname');
+ *  echo 'Hello, my name is ', State::get('user.name'), ' ', State::get('user.surname');
  * </code>
  *
- * @package Protein
+ * @package Proteins
  * @author  "Stefano Azzolini"  <lastguest@gmail.com>
  *
  */
 
-namespace Protein;
+namespace Proteins;
 
 abstract class Dictionary {
 

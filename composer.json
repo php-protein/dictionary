@@ -1,5 +1,5 @@
 {
-    "name": "protein/map",
+    "name": "proteins/map",
     "description": "Handle a repository of key-values data",
     "type": "library",
     "license": "MIT",
@@ -13,8 +13,8 @@
         "php": "^7.2"
     },
     "autoload": {
-        "PSR-4": {
-            "Protein\\": "src/"
+        "psr-4": {
+            "Proteins\\": "src/"
         }
     }
 }

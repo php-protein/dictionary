@@ -6,11 +6,11 @@
  * The map class allow to handle a repository of key-values data.
  * Values are accessibles via a dot notation key path.
  *
- * @package Protein
+ * @package Proteins
  * @author  "Stefano Azzolini"  <lastguest@gmail.com>
  */
 
-namespace Protein;
+namespace Proteins;
 
 class Map implements \JsonSerializable {
     protected $fields = [];
