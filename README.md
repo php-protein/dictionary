@@ -1,19 +1,19 @@
 <p align=center><img height=150 src="https://raw.githubusercontent.com/php-protein/docs/master/assets/protein-large.png"></p>
 
-# Protein | Map
+# Protein | Dictionary
 ## Handle a repository of key-values data
 
 ### Install
 ---
 
 ```
-composer require proteins/map
+composer require proteins/dictionary
 ```
 
 Require the class via :
 
 ```php
-use Proteins\Map;
+use Proteins\Dictionary;
 ```
 
 
