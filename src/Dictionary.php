@@ -20,7 +20,7 @@
 
 namespace Proteins;
 
-abstract class Dictionary {
+class Dictionary {
 
     protected static $fields = null;
 
@@ -35,7 +35,7 @@ abstract class Dictionary {
         if (!static::$fields) {
             static::$fields = new Map();
         }
-        if (is_array($key)) {
+        if (\is_array($key)) {
             $results = [];
             foreach ($key as $_dst_key => $_src_key) {
                 $results[$_dst_key] = static::$fields->get($_src_key);

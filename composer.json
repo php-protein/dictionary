@@ -1,6 +1,6 @@
 {
-    "name": "proteins/map",
-    "description": "Handle a repository of key-values data",
+    "name": "proteins/dictionary",
+    "description": "Class to handle a repository of key-values data via dot notation key path",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": "^7.2"
+        "php": "^7.2",
+        "proteins/map": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
